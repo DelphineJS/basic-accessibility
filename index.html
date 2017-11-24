@@ -10,10 +10,15 @@
 </head>
 <body>
 
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
   <header role="banner">
     <h1>Pangolin</h1>
-    <nav role="navigation">
-      <ul>
+    <nav role="navigation" id="nav" tabindex="0">
+      <ul class="skip-links">
         <li><a href="#description">Description</a></li>
         <li><a href="#behaviour">Behaviour</a></li>
         <li><a href="#conservation">Conservation</a></li>
@@ -21,7 +26,7 @@
     </nav>
   </header>
 
-  <main role="main">
+  <main role="main" id="main" tabindex="0">
     <section id="description" tabindex="0">
       <h2>Description</h2>
     </section>
